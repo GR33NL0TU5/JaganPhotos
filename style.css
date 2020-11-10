@@ -29,12 +29,21 @@ body {
   z-index: 2;
 }
 
+.hero-logo a {
+  color: white;
+  font-style: italic;
+}
+
+.hero-logo a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .menu-toggle {
   position: fixed;
   right: 0;
   margin: 2em;
   color: white;
-  z-index: 1;
 }
 
 .menu-toggle ion-icon {
@@ -47,6 +56,7 @@ body {
   height: 100vh;
   background: #0f0f0f;
   opacity: 0;
+  z-index: .9;
 }
 
 .overlay ion-icon {
@@ -117,12 +127,12 @@ body {
 
 .view-photos a {
   color: white;
-  text-decoration: underline;
   font-style: italic;
 }
 
 .view-photos a:hover {
   color: white;
+  text-decoration: none;
 }
 
 .hero-img {
@@ -280,3 +290,4 @@ body {
   font-style: italic;
   font-family: "Cormorant";
 }
+
